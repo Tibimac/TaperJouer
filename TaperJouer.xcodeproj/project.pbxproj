@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52527FCB1961B21C0090A334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527FCA1961B21C0090A334 /* Foundation.framework */; };
+		52527FCD1961B21C0090A334 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527FCC1961B21C0090A334 /* CoreGraphics.framework */; };
+		52527FCF1961B21C0090A334 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527FCE1961B21C0090A334 /* UIKit.framework */; };
+		52527FD51961B21C0090A334 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52527FD31961B21C0090A334 /* InfoPlist.strings */; };
+		52527FD71961B21C0090A334 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52527FD61961B21C0090A334 /* main.m */; };
+		52527FDB1961B21C0090A334 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52527FDA1961B21C0090A334 /* AppDelegate.m */; };
+		52527FDD1961B21C0090A334 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52527FDC1961B21C0090A334 /* Images.xcassets */; };
+		52527FE41961B21C0090A334 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527FE31961B21C0090A334 /* XCTest.framework */; };
+		52527FE51961B21C0090A334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527FCA1961B21C0090A334 /* Foundation.framework */; };
+		52527FE61961B21C0090A334 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527FCE1961B21C0090A334 /* UIKit.framework */; };
+		52527FEE1961B21C0090A334 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52527FEC1961B21C0090A334 /* InfoPlist.strings */; };
+		52527FF01961B21C0090A334 /* TaperJouerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52527FEF1961B21C0090A334 /* TaperJouerTests.m */; };
+		525280021961B7240090A334 /* TJHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 525280011961B7240090A334 /* TJHistory.m */; };
+		525280051961B75F0090A334 /* TJHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525280041961B75F0090A334 /* TJHistoryTableViewController.m */; };
+		525280081961B7840090A334 /* TJPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525280071961B7840090A334 /* TJPlayerViewController.m */; };
+		5252800B1961B7970090A334 /* TJPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5252800A1961B7970090A334 /* TJPlayerView.m */; };
+		52F092581966E5C200C451EA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F092571966E5C200C451EA /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52527FE71961B21C0090A334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52527FBF1961B21C0090A334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52527FC61961B21C0090A334;
+			remoteInfo = TaperJouer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52527FC71961B21C0090A334 /* TaperJouer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaperJouer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52527FCA1961B21C0090A334 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52527FCC1961B21C0090A334 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52527FCE1961B21C0090A334 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52527FD21961B21C0090A334 /* TaperJouer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaperJouer-Info.plist"; sourceTree = "<group>"; };
+		52527FD41961B21C0090A334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52527FD61961B21C0090A334 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52527FD81961B21C0090A334 /* TaperJouer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaperJouer-Prefix.pch"; sourceTree = "<group>"; };
+		52527FD91961B21C0090A334 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52527FDA1961B21C0090A334 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52527FDC1961B21C0090A334 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52527FE21961B21C0090A334 /* TaperJouerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaperJouerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52527FE31961B21C0090A334 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52527FEB1961B21C0090A334 /* TaperJouerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaperJouerTests-Info.plist"; sourceTree = "<group>"; };
+		52527FED1961B21C0090A334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52527FEF1961B21C0090A334 /* TaperJouerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaperJouerTests.m; sourceTree = "<group>"; };
+		525280001961B7240090A334 /* TJHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJHistory.h; sourceTree = "<group>"; };
+		525280011961B7240090A334 /* TJHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJHistory.m; sourceTree = "<group>"; };
+		525280031961B75F0090A334 /* TJHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJHistoryTableViewController.h; sourceTree = "<group>"; };
+		525280041961B75F0090A334 /* TJHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJHistoryTableViewController.m; sourceTree = "<group>"; };
+		525280061961B7840090A334 /* TJPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJPlayerViewController.h; sourceTree = "<group>"; };
+		525280071961B7840090A334 /* TJPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJPlayerViewController.m; sourceTree = "<group>"; };
+		525280091961B7970090A334 /* TJPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJPlayerView.h; sourceTree = "<group>"; };
+		5252800A1961B7970090A334 /* TJPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJPlayerView.m; sourceTree = "<group>"; };
+		52F092571966E5C200C451EA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52527FC41961B21C0090A334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F092581966E5C200C451EA /* MediaPlayer.framework in Frameworks */,
+				52527FCD1961B21C0090A334 /* CoreGraphics.framework in Frameworks */,
+				52527FCF1961B21C0090A334 /* UIKit.framework in Frameworks */,
+				52527FCB1961B21C0090A334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52527FDF1961B21C0090A334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52527FE41961B21C0090A334 /* XCTest.framework in Frameworks */,
+				52527FE61961B21C0090A334 /* UIKit.framework in Frameworks */,
+				52527FE51961B21C0090A334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52527FBE1961B21C0090A334 = {
+			isa = PBXGroup;
+			children = (
+				52527FD01961B21C0090A334 /* TaperJouer */,
+				52527FE91961B21C0090A334 /* TaperJouerTests */,
+				52527FC91961B21C0090A334 /* Frameworks */,
+				52527FC81961B21C0090A334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52527FC81961B21C0090A334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52527FC71961B21C0090A334 /* TaperJouer.app */,
+				52527FE21961B21C0090A334 /* TaperJouerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52527FC91961B21C0090A334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52F092571966E5C200C451EA /* MediaPlayer.framework */,
+				52527FCA1961B21C0090A334 /* Foundation.framework */,
+				52527FCC1961B21C0090A334 /* CoreGraphics.framework */,
+				52527FCE1961B21C0090A334 /* UIKit.framework */,
+				52527FE31961B21C0090A334 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52527FD01961B21C0090A334 /* TaperJouer */ = {
+			isa = PBXGroup;
+			children = (
+				52527FD91961B21C0090A334 /* AppDelegate.h */,
+				52527FDA1961B21C0090A334 /* AppDelegate.m */,
+				52527FFD1961B6F40090A334 /* Models */,
+				52527FFE1961B7010090A334 /* Views */,
+				52527FFF1961B70B0090A334 /* Controllers */,
+				52527FDC1961B21C0090A334 /* Images.xcassets */,
+				52527FD11961B21C0090A334 /* Supporting Files */,
+			);
+			path = TaperJouer;
+			sourceTree = "<group>";
+		};
+		52527FD11961B21C0090A334 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52527FD21961B21C0090A334 /* TaperJouer-Info.plist */,
+				52527FD31961B21C0090A334 /* InfoPlist.strings */,
+				52527FD61961B21C0090A334 /* main.m */,
+				52527FD81961B21C0090A334 /* TaperJouer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52527FE91961B21C0090A334 /* TaperJouerTests */ = {
+			isa = PBXGroup;
+			children = (
+				52527FEF1961B21C0090A334 /* TaperJouerTests.m */,
+				52527FEA1961B21C0090A334 /* Supporting Files */,
+			);
+			path = TaperJouerTests;
+			sourceTree = "<group>";
+		};
+		52527FEA1961B21C0090A334 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52527FEB1961B21C0090A334 /* TaperJouerTests-Info.plist */,
+				52527FEC1961B21C0090A334 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52527FFD1961B6F40090A334 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				525280001961B7240090A334 /* TJHistory.h */,
+				525280011961B7240090A334 /* TJHistory.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52527FFE1961B7010090A334 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				525280091961B7970090A334 /* TJPlayerView.h */,
+				5252800A1961B7970090A334 /* TJPlayerView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52527FFF1961B70B0090A334 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				525280031961B75F0090A334 /* TJHistoryTableViewController.h */,
+				525280041961B75F0090A334 /* TJHistoryTableViewController.m */,
+				525280061961B7840090A334 /* TJPlayerViewController.h */,
+				525280071961B7840090A334 /* TJPlayerViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52527FC61961B21C0090A334 /* TaperJouer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52527FF31961B21C0090A334 /* Build configuration list for PBXNativeTarget "TaperJouer" */;
+			buildPhases = (
+				52527FC31961B21C0090A334 /* Sources */,
+				52527FC41961B21C0090A334 /* Frameworks */,
+				52527FC51961B21C0090A334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaperJouer;
+			productName = TaperJouer;
+			productReference = 52527FC71961B21C0090A334 /* TaperJouer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52527FE11961B21C0090A334 /* TaperJouerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52527FF61961B21C0090A334 /* Build configuration list for PBXNativeTarget "TaperJouerTests" */;
+			buildPhases = (
+				52527FDE1961B21C0090A334 /* Sources */,
+				52527FDF1961B21C0090A334 /* Frameworks */,
+				52527FE01961B21C0090A334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52527FE81961B21C0090A334 /* PBXTargetDependency */,
+			);
+			name = TaperJouerTests;
+			productName = TaperJouerTests;
+			productReference = 52527FE21961B21C0090A334 /* TaperJouerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52527FBF1961B21C0090A334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tibimac;
+				TargetAttributes = {
+					52527FE11961B21C0090A334 = {
+						TestTargetID = 52527FC61961B21C0090A334;
+					};
+				};
+			};
+			buildConfigurationList = 52527FC21961B21C0090A334 /* Build configuration list for PBXProject "TaperJouer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52527FBE1961B21C0090A334;
+			productRefGroup = 52527FC81961B21C0090A334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52527FC61961B21C0090A334 /* TaperJouer */,
+				52527FE11961B21C0090A334 /* TaperJouerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52527FC51961B21C0090A334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52527FD51961B21C0090A334 /* InfoPlist.strings in Resources */,
+				52527FDD1961B21C0090A334 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52527FE01961B21C0090A334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52527FEE1961B21C0090A334 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52527FC31961B21C0090A334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525280081961B7840090A334 /* TJPlayerViewController.m in Sources */,
+				5252800B1961B7970090A334 /* TJPlayerView.m in Sources */,
+				525280051961B75F0090A334 /* TJHistoryTableViewController.m in Sources */,
+				52527FDB1961B21C0090A334 /* AppDelegate.m in Sources */,
+				52527FD71961B21C0090A334 /* main.m in Sources */,
+				525280021961B7240090A334 /* TJHistory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52527FDE1961B21C0090A334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52527FF01961B21C0090A334 /* TaperJouerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52527FE81961B21C0090A334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52527FC61961B21C0090A334 /* TaperJouer */;
+			targetProxy = 52527FE71961B21C0090A334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52527FD31961B21C0090A334 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52527FD41961B21C0090A334 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52527FEC1961B21C0090A334 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52527FED1961B21C0090A334 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52527FF11961B21C0090A334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52527FF21961B21C0090A334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52527FF41961B21C0090A334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaperJouer/TaperJouer-Prefix.pch";
+				INFOPLIST_FILE = "TaperJouer/TaperJouer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52527FF51961B21C0090A334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaperJouer/TaperJouer-Prefix.pch";
+				INFOPLIST_FILE = "TaperJouer/TaperJouer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52527FF71961B21C0090A334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaperJouer.app/TaperJouer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaperJouer/TaperJouer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TaperJouerTests/TaperJouerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52527FF81961B21C0090A334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaperJouer.app/TaperJouer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaperJouer/TaperJouer-Prefix.pch";
+				INFOPLIST_FILE = "TaperJouerTests/TaperJouerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52527FC21961B21C0090A334 /* Build configuration list for PBXProject "TaperJouer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52527FF11961B21C0090A334 /* Debug */,
+				52527FF21961B21C0090A334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52527FF31961B21C0090A334 /* Build configuration list for PBXNativeTarget "TaperJouer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52527FF41961B21C0090A334 /* Debug */,
+				52527FF51961B21C0090A334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52527FF61961B21C0090A334 /* Build configuration list for PBXNativeTarget "TaperJouerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52527FF71961B21C0090A334 /* Debug */,
+				52527FF81961B21C0090A334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52527FBF1961B21C0090A334 /* Project object */;
+}
