@@ -1,5 +1,6 @@
 # TaperJouer
-Exercice "TaperJouer" de la semaine 9 du MOOC "Programmation iPhone et iPad". Réalisation : 30 juin 2014
+Exercice "TaperJouer" de la semaine 9 du MOOC "Programmation iPhone et iPad".<br/>
+Réalisation : 30 juin 2014
 
 [![TaperJouer - Play](http://www.tibimac.com/uploads_forums/github/TaperJouer-Play.png)](https://youtu.be/KFbuMq029W0 "TaperJouer - Play")
 [![TaperJouer - Pause](http://www.tibimac.com/uploads_forums/github/TaperJouer-Pause.png)](https://youtu.be/KFbuMq029W0 "TaperJouer - Pause")
