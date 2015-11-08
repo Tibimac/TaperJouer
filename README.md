@@ -2,7 +2,8 @@
 Exercice "TaperJouer" de la semaine 9 du MOOC "Programmation iPhone et iPad". Réalisation : 30 juin 2014
 
 - ARC désactivé.
-- Pas de storyBoard.
+- Structure MVC.
+- Pas de storyboard.
 - Gestion iPad iPhone.
 - Gestion de la rotation.
 - Ajout des morceaux dans un historique mais seulement si le morceau n'y ai pas déjà (vérif avec son persisitantID).
